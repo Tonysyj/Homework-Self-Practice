@@ -7,7 +7,7 @@ td {
   color: blue;
 }
 
-.full-score {
+td.full-score {
   color: red;
 }
 
