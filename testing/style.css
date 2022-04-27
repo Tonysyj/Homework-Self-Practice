@@ -1,4 +1,4 @@
-table,
+/* table,
 th,
 td {
   border: 1px solid black;
@@ -17,4 +17,27 @@ td {
 
 th {
   width: 50%;
+} */
+
+#accessories {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.mouse .keyboard {
+  display: flex;
+  flex-flow: column;
+}
+
+h1 {
+  order: -1;
+  text-align: center;
+  color: red;
+}
+.mouse {
+  align-self: center;
+}
+
+ul {
+  list-style: none;
 }
