@@ -1,7 +1,6 @@
-name="Tony"
-if name in ["Tony", "Rick"]:
-    print("Your name is either Tony or Rick") # 成功print
+def add(a, b):
+    inner_result=a+b
+    return inner_result
 
-name="Jason"
-if name not in ["Tony", "Rick"]:
-    print("Your name is either Tony or Rick") # 成功print
+result=add(3,4)
+print(result)
