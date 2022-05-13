@@ -1,6 +1,3 @@
-def add(a, b):
-    inner_result=a+b
-    return inner_result
-
-result=add(3,4)
-print(result)
+def add_without_param(a=1, b=2):
+    print(a+b)
+add_without_param(7, 8)
