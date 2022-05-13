@@ -1,3 +1,7 @@
-print(3>2 and 2>3) # 结果是False
-print(3>2 or 2>3) # 结果是True
-print(not (3>2 and 2>3)) # 结果是True
+name="Tony"
+if name in ["Tony", "Rick"]:
+    print("Your name is either Tony or Rick") # 成功print
+
+name="Jason"
+if name not in ["Tony", "Rick"]:
+    print("Your name is either Tony or Rick") # 成功print
