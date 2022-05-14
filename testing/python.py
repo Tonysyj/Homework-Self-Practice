@@ -1,4 +1,25 @@
-class Animal:  # class的名称一定要首字母大写
-    pass
+class Animal: 
+    age=18
+    gender="male"
+    name="Tiger"
 
-tiger=Animal()  # tiger就是Animal这个类的instance。instance和object没区别。只是当有class了以后我们大部分就会叫instance了。
+    def greeting(self):
+        print("Hello, I am", Animal.name)
+
+    def eat(self, food):
+        return f"I want to eat {food}"
+
+tiger=Animal()
+person = Animal()
+
+tiger.greeting()
+print(person.eat("meat"))
+
+class Dog(Animal):
+    price="$200"
+    def bark(self):
+        print("My price is", Dog.price)
+
+dog=Dog()
+
+dog.bark()
