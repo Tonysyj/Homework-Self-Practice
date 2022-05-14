@@ -1,3 +1,4 @@
-def add_without_param(a=1, b=2):
-    print(a+b)
-add_without_param(7, 8)
+class Animal:  # class的名称一定要首字母大写
+    pass
+
+tiger=Animal()  # tiger就是Animal这个类的instance。instance和object没区别。只是当有class了以后我们大部分就会叫instance了。
